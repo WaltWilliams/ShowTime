@@ -370,7 +370,6 @@ qrc_resources.cpp: resources.qrc \
 		Actions-media-playback-start-icon64.png \
 		Old-Camera-icon48.png \
 		Categories-preferences-other-icon32.png \
-		La_Plata_mountains.jpg \
 		Log-Out-icon32.png
 	/usr/lib/qt5/bin/rcc -name resources resources.qrc -o qrc_resources.cpp
 

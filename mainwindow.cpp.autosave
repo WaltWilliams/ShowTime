@@ -85,7 +85,8 @@ void MainWindow::on_receivingFilename(QString filename){
 void MainWindow::on_action_open_triggered() {
     // This stop_switch passes a 3 into the thread via pointer.
     // So it happens in real time. It causes the file_list
-    // inside the thread to be cleared in preparation for a new list of filenames.
+    // inside the thread to be cleared and the index to be reset in
+    // preparation for a new list of filenames.
     stop_switch = 3;
 
 
