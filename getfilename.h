@@ -15,7 +15,7 @@ public:
     ~GetFilename();
 
     void build_obj(QThread &fn_thread);
-    void object_initial_values(int *stop_switch, int *pause_switch, unsigned int pause_amount, QStringList file_list);
+    void object_initial_values(int *stop_switch, int *pause_switch, unsigned int *pause_amount, QStringList *file_list);
 
 
 signals:
@@ -27,8 +27,8 @@ public slots:
 private:
     QThread *w_fn_thread;
     QString filename;
-    QStringList w_file_list;
-    unsigned int w_pause_amount;
+    QStringList *w_file_list;
+    unsigned int *w_pause_amount;
     int *w_pause_switch;
     int *w_stop_switch;
 };

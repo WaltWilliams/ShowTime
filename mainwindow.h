@@ -35,14 +35,13 @@ private:
     Ui::MainWindow *ui;
 
     void resizeEvent(QResizeEvent*);
-    GetFilename *get_the_filename;
     QThread filename_thread;
 
     QPlainTextEdit pet;
     QPixmap current_pix;
 
     QDir directory_files;
-    QString home_path;
+    QString photo_path;
     QString w_filename;
     QString start_filename;
     QStringList file_list;
