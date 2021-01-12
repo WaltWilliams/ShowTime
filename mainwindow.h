@@ -46,7 +46,7 @@ private:
     QString start_filename;
     QStringList file_list;
 
-    QString program_name = "Slideshow";
+    QString program_name = "ShowTime";
     QString status_message;
 
     int thread_is_started {0};

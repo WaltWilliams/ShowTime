@@ -162,10 +162,10 @@
     </iconset>
    </property>
    <property name="text">
-    <string>&amp;Select Directory</string>
+    <string>&amp;Select Folder</string>
    </property>
    <property name="toolTip">
-    <string>Select Directory</string>
+    <string>Select Folder</string>
    </property>
    <property name="font">
     <font>
